@@ -7,6 +7,7 @@ public class LivroFisico extends Produto{
 
 	public LivroFisico(int id, String titulo, String autor, int categoria, float preco, int numeroPaginas) {
 		super(id, titulo, autor, categoria, preco);
+		this.numeroPaginas = numeroPaginas;
 	}
 
 
@@ -22,6 +23,6 @@ public class LivroFisico extends Produto{
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.printf("Número de páginas: %d",this.numeroPaginas);
+		System.out.printf("Número de páginas: %d%n",this.numeroPaginas);
 	}
 }

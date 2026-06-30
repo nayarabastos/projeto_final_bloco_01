@@ -55,14 +55,14 @@ public void visualizar() {
 			default -> categoria = "Inválido";
 		}
 		
-		System.out.println("\n********************************************");
-		System.out.println("DADOS DO LIVRO");
-		System.out.println("********************************************");
-		System.out.printf("Id do livro: %d%n", this.id);
-		System.out.printf("Categoria do livrp: %s%n", categoria);
-		System.out.printf("Título do livro: %s%n", this.titulo);
-		System.out.printf("Autor do livro: %s%n", this.titulo);
-		System.out.printf("Preço do livro: R$ %.2f%n", this.preco);
+		System.out.println("\n*****************************************************");
+		System.out.println("                   DADOS DO LIVRO                    ");
+		System.out.println("*****************************************************");
+		System.out.printf("ID: %d%n", this.id);
+		System.out.printf("Categoria: %s%n", categoria);
+		System.out.printf("Título: %s%n", this.titulo);
+		System.out.printf("Autor: %s%n", this.autor);
+		System.out.printf("Preço: R$ %.2f%n", this.preco);
 	}
 	
 }
